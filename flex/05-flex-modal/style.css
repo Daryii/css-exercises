@@ -13,7 +13,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
- 
+  
 }
 
 .modal {
@@ -71,7 +71,10 @@ button.cancel {
 }
 
 
-/* .container {
-  display: flex;
-  flex-direction: column;
-} */
+
+.container {
+  display: inline-flex;
+  flex-wrap: wrap;
+
+}
+
