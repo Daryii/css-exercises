@@ -1,0 +1,28 @@
+.container {
+    background-color: blueviolet;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 25px;
+    padding: 6px;
+}
+
+.left-side {
+    flex: 1;
+}
+
+.search-bar {
+    flex: 2;
+    
+}
+
+.right-side {
+  flex: 1;
+}
+
+button {
+    background-color: blueviolet;
+    color: white;
+}
