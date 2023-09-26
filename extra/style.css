@@ -1,28 +1,37 @@
 .container {
-    background-color: blueviolet;
-    color: white;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    height: 25px;
-    padding: 6px;
+    border: 1px solid black;
+    font-family: arial;
+    padding: 10px;
+    width: 300px;
 }
 
-.left-side {
-    flex: 1;
+.email-label {
+    font-size: 10px;
+    color: rgb(134, 125, 125);
+    margin-bottom: 10px;
+}
+.image {
+    height: 30px;
+    width: 33px;
+    border-radius: 15px;
+    margin-right: 8px;
+}
+.email {
+    display: flex;
 }
 
-.search-bar {
-    flex: 2;
-    
+.sender-name {
+    font-weight: 700;
 }
 
-.right-side {
-  flex: 1;
+.send-time {
+    font-size: 12px;
+    color: rgb(116, 118, 120);
+    display: flex;
+    flex-direction: row-reverse;
 }
 
-button {
-    background-color: blueviolet;
-    color: white;
+.subject {
+    font-size:;
 }
