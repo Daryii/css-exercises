@@ -28,10 +28,16 @@
 .send-time {
     font-size: 12px;
     color: rgb(116, 118, 120);
+
+}
+
+.email-header {
     display: flex;
-    flex-direction: row-reverse;
+    justify-content: space-between;
 }
 
 .subject {
-    font-size:;
+    font-weight: 600;
+    margin-top: 7px;
+    margin-bottom: 3px;
 }
